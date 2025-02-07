@@ -1,0 +1,6 @@
+# Copiado de la policlinica
+
+# Esto sirve para ocultar los directorios y que solo muestre el index.php
+
+
+Options -Indexes

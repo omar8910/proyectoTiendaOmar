@@ -1,0 +1,31 @@
+{
+    "name": "omarq/proyecto-tienda-omar",
+    "description": "Proyecto tienda de algo",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Omarq\\ProyectoTiendaOmar\\": "src/",
+            "Controllers\\": "./src/Controllers/",
+            "Lib\\": "./src/Lib/",
+            "Models\\": "./src/Models/",
+            "Views\\": "./src/Views/",
+            "Routes\\": "./src/Routes/",
+            "Config\\": "./src/Config/",
+            "Utils\\": "./src/Utils/",
+            "Services\\": "./src/Services/",
+            "Repositories\\": "./src/Repositories/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar Qneiby",
+            "email": "omarqneiby@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "composer/composer": "^2.7",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
